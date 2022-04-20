@@ -1,0 +1,122 @@
+*{  
+    max-width: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Arvo', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+    max-height: 1000px;
+    } 
+    
+    main{
+      background-image: url("../Home/b.jpg");
+      margin-top: 0px;
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+        align-items: center; 
+       text-align: center; 
+       color:white;
+       background-repeat: no-repeat;
+       background-position:10% 10%;
+       /* background-repeat:; */
+       background-size: cover;
+    
+    }
+    section h2{
+        /* margin-top: 10%; */
+        font-size: 40px;
+        font-weight: 150; 
+        letter-spacing: 2px; 
+        text-shadow: 1px 1px 2px blue;
+        color: white;
+   }
+    section h3{
+         margin: 0px 0px 0px 0px; 
+         font-size:45px;
+         letter-spacing: 2px; 
+         font-weight: 50; 
+         text-shadow: 2px 1px 5px black; 
+         color: white;
+    } 
+    section h1{
+       margin: 14px 0px 20px 0px;
+       font-size: 45px;
+       font-weight: 700;
+       text-shadow: 2px 1px 5px black;
+    }
+    .change_content:after{
+       content: '' ;
+       animation: changetext 15s infinite linear;
+       color:#11f8ca ;
+    }
+    @keyframes  changetext{
+       20%{content:"Computer Science Engineer";}
+       30%{content:"Specilist in Coding";}
+       50%{content:"front end Developer";}
+       45%{content:"Javascript Developer";}
+       60%{content:"React Js Developer";}
+       70%{content:"Blogger";}
+       80%{content:"Freelancer";}   
+    }
+#btn1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 20px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: white;
+    margin: 5px;
+
+}
+#btn2{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: #f44336;
+    margin: 5px;
+
+}
+#btn3{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 20px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: rgb(204, 197, 197);
+    margin: 5px;
+
+}
+#btn4{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    background-color:#249ebd;
+    margin: 5px;
+
+    opacity: 1;
+}

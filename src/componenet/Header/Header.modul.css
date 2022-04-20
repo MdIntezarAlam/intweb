@@ -1,0 +1,20 @@
+.container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:  2%;
+ 
+ }
+ .container hr{
+     position: absolute;
+     left: 0;
+     width: 124px;
+     border-radius: 1px solid #8C1CD1;
+ }
+ .container h6{
+     margin-top:3px;
+     color:rgb(3, 3, 5);
+     font-size: 35px;
+     text-align: center;
+     font-weight: 600;
+ }

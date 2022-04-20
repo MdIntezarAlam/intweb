@@ -1,0 +1,19 @@
+.nes {
+    background-color: royalblue !important;
+}
+
+.home {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.new {
+    color: white !important;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.cc{
+    color: green !important;
+    background-color: rgb(247, 241, 241) !important;
+}
